@@ -1,0 +1,26 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-2px);
+}
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+.list-group-item {
+    border-left: 4px solid #007bff;
+}
+#chatBox .user-msg {
+    background-color: #e3f2fd;
+    padding: 8px;
+    border-radius: 10px;
